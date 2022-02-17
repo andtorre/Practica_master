@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "FirstDataProcess.C": "cpp",
+        "analysis.C": "cpp",
+        "EventDisplay.C": "cpp",
+        "AverageWaveform.C": "cpp"
+    }
+}
