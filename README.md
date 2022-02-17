@@ -16,8 +16,3 @@ Macros y librerías necesarias para el análisis de los datos tomados con el ADC
   Ya finalmente se representa el plot de carga intengrando entre range1 y range2, en unidades de V*ns para el osciloscopio. También he añadido una función que te realiza un ajuste al número de gaussianas que le digas entre los valores del eje x que le marques (todo esto en la propia terminal).
 
   3.) AverageWaveform.C: esta macro es la que se usa para sacar la waveform media de todos los eventos, o de aquellos que queden tras los cortes. En principio no creo que la vayan a usar pero por si es interesante la añado. Aunque sacar la media de estos eventos es un poco engañoso porque tenemos señal por todos lados y la anchura de la señal real se puede ver afectada. Esto es más útil para señales más intensas o que hagan trigger externo con láser. 
-
-
-# Practica_master
-# Practica_master
-# Practica_master
