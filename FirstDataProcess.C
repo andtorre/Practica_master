@@ -8,12 +8,13 @@ void FirstDataProcess()
 {
 	vector<int> OV = {3, 4, 5}; // OV a los que se toman los datos
 	vector<int> wvl = {270, 360, 405, 420}; // wavelengths de las fuentes de luz
-	string ipath = "/run/media/andtorre/Andresito/Eficiencia_Dedo_Frio_VUV4_375"; // path donde se encuentran las carpetas de RT y LN2 con los .txt
+	string ipath = ""; // path donde se encuentran las carpetas de RT y LN2 con los .txt
 
+	ReadAndDumpBinary("test_practica.dat","test_practica.root");
 	// MEDIDAS A RT
 	// ------------------ Calibracion ----------------------------
-	for (int ov:OV) {
-		ReadAndDumpOscilloscope(ipath+Form("/RT/Calibracion/OV%i--",ov), Form("ROOT/OV%i_SPE_RT.root",ov),-1,-1);
+	/*for (int ov:OV) {
+		ReadAndDumpBinary(ipath+Form("/RT/Calibracion/OV%i--",ov), Form("ROOT/OV%i_SPE_RT.root",ov),-1,-1);
 	} //*/
 	// ------------------ Luz ----------------------------
 	/*for(int wl:wvl) {for (int ov:OV) {
